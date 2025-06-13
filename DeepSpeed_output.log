@@ -1,0 +1,653 @@
+[2025-03-29 15:19:52,273] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-03-29 15:19:52,273] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-03-29 15:19:52,273] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-03-29 15:19:52,273] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-03-29 15:19:52,273] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-03-29 15:19:52,274] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-03-29 15:19:52,274] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-03-29 15:19:52,277] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+SLURM_PROCID=2, SLURM_LOCALID=2, SLURM_NTASKS=8
+SLURM_PROCID=1, SLURM_LOCALID=1, SLURM_NTASKS=8
+SLURM_PROCID=0, SLURM_LOCALID=0, SLURM_NTASKS=8
+SLURM_PROCID=4, SLURM_LOCALID=0, SLURM_NTASKS=8
+SLURM_PROCID=3, SLURM_LOCALID=3, SLURM_NTASKS=8
+SLURM_PROCID=6, SLURM_LOCALID=2, SLURM_NTASKS=8
+SLURM_PROCID=7, SLURM_LOCALID=3, SLURM_NTASKS=8
+SLURM_PROCID=5, SLURM_LOCALID=1, SLURM_NTASKS=8
+Rank 0: Set device to cuda:0, GPU: Quadro RTX 5000
+Rank 4: Set device to cuda:0, GPU: Quadro RTX 5000
+Rank 0: Set MASTER_ADDR to c196-111 from SLURM_NODELIST
+Rank 0: MASTER_PORT not set by SLURM, defaulting to '29500'
+Rank 0: Initializing process group with world_size=8, MASTER_ADDR=c196-111, MASTER_PORT=29500
+Rank 4: Set MASTER_ADDR to c196-111 from SLURM_NODELIST
+Rank 4: MASTER_PORT not set by SLURM, defaulting to '29500'
+Rank 4: Initializing process group with world_size=8, MASTER_ADDR=c196-111, MASTER_PORT=29500
+Rank 2: Set device to cuda:2, GPU: Quadro RTX 5000
+Rank 1: Set device to cuda:1, GPU: Quadro RTX 5000
+Rank 7: Set device to cuda:3, GPU: Quadro RTX 5000
+Rank 3: Set device to cuda:3, GPU: Quadro RTX 5000
+Rank 6: Set device to cuda:2, GPU: Quadro RTX 5000
+Rank 5: Set device to cuda:1, GPU: Quadro RTX 5000
+Rank 2: Set MASTER_ADDR to c196-111 from SLURM_NODELIST
+Rank 2: MASTER_PORT not set by SLURM, defaulting to '29500'
+Rank 2: Initializing process group with world_size=8, MASTER_ADDR=c196-111, MASTER_PORT=29500
+Rank 3: Set MASTER_ADDR to c196-111 from SLURM_NODELIST
+Rank 3: MASTER_PORT not set by SLURM, defaulting to '29500'
+Rank 3: Initializing process group with world_size=8, MASTER_ADDR=c196-111, MASTER_PORT=29500
+Rank 1: Set MASTER_ADDR to c196-111 from SLURM_NODELIST
+Rank 1: MASTER_PORT not set by SLURM, defaulting to '29500'
+Rank 1: Initializing process group with world_size=8, MASTER_ADDR=c196-111, MASTER_PORT=29500
+Rank 7: Set MASTER_ADDR to c196-111 from SLURM_NODELIST
+Rank 7: MASTER_PORT not set by SLURM, defaulting to '29500'
+Rank 7: Initializing process group with world_size=8, MASTER_ADDR=c196-111, MASTER_PORT=29500
+Rank 5: Set MASTER_ADDR to c196-111 from SLURM_NODELIST
+Rank 5: MASTER_PORT not set by SLURM, defaulting to '29500'
+Rank 5: Initializing process group with world_size=8, MASTER_ADDR=c196-111, MASTER_PORT=29500
+Rank 6: Set MASTER_ADDR to c196-111 from SLURM_NODELIST
+Rank 6: MASTER_PORT not set by SLURM, defaulting to '29500'
+Rank 6: Initializing process group with world_size=8, MASTER_ADDR=c196-111, MASTER_PORT=29500
+Rank 4: Process group initialized
+Rank 4: Setting up dataloaders with world_size=8
+Rank 6: Process group initialized
+Rank 6: Setting up dataloaders with world_size=8
+Rank 7: Process group initialized
+Rank 7: Setting up dataloaders with world_size=8
+Rank 5: Process group initialized
+Rank 5: Setting up dataloaders with world_size=8
+Rank 2: Process group initialized
+Rank 3: Process group initialized
+Rank 0: Process group initialized
+Rank 2: Setting up dataloaders with world_size=8
+Rank 3: Setting up dataloaders with world_size=8
+Rank 0: Setting up dataloaders with world_size=8
+Rank 1: Process group initialized
+Rank 1: Setting up dataloaders with world_size=8
+Rank 6: Dataloaders initialized
+Rank 4: Dataloaders initialized
+Rank 5: Dataloaders initialized
+Rank 7: Dataloaders initialized
+Rank 2: Dataloaders initialized
+Rank 3: Dataloaders initialized
+Rank 1: Dataloaders initialized
+Rank 0: Dataloaders initialized
+[2025-03-29 15:20:45,062] [INFO] [logging.py:128:log_dist] [Rank -1] DeepSpeed info: version=0.16.4, git-hash=unknown, git-branch=unknown
+[2025-03-29 15:20:45,062] [INFO] [comm.py:658:init_distributed] cdb=None
+[2025-03-29 15:20:45,062] [INFO] [logging.py:128:log_dist] [Rank -1] DeepSpeed info: version=0.16.4, git-hash=unknown, git-branch=unknown
+[2025-03-29 15:20:45,063] [INFO] [comm.py:658:init_distributed] cdb=None
+[2025-03-29 15:20:45,069] [INFO] [config.py:734:__init__] Config mesh_device None world_size = 8
+[2025-03-29 15:20:45,069] [INFO] [config.py:734:__init__] Config mesh_device None world_size = 8
+[2025-03-29 15:20:45,072] [INFO] [logging.py:128:log_dist] [Rank -1] DeepSpeed info: version=0.16.4, git-hash=unknown, git-branch=unknown
+[2025-03-29 15:20:45,073] [INFO] [comm.py:658:init_distributed] cdb=None
+[2025-03-29 15:20:45,074] [INFO] [config.py:734:__init__] Config mesh_device None world_size = 8
+[2025-03-29 15:20:45,075] [INFO] [logging.py:128:log_dist] [Rank -1] DeepSpeed info: version=0.16.4, git-hash=unknown, git-branch=unknown
+[2025-03-29 15:20:45,076] [INFO] [comm.py:658:init_distributed] cdb=None
+[2025-03-29 15:20:45,076] [INFO] [config.py:734:__init__] Config mesh_device None world_size = 8
+[2025-03-29 15:20:45,141] [INFO] [logging.py:128:log_dist] [Rank -1] DeepSpeed info: version=0.16.4, git-hash=unknown, git-branch=unknown
+[2025-03-29 15:20:45,141] [INFO] [logging.py:128:log_dist] [Rank -1] DeepSpeed info: version=0.16.4, git-hash=unknown, git-branch=unknown
+[2025-03-29 15:20:45,141] [INFO] [logging.py:128:log_dist] [Rank -1] DeepSpeed info: version=0.16.4, git-hash=unknown, git-branch=unknown
+[2025-03-29 15:20:45,142] [INFO] [comm.py:658:init_distributed] cdb=None
+[2025-03-29 15:20:45,141] [INFO] [logging.py:128:log_dist] [Rank -1] DeepSpeed info: version=0.16.4, git-hash=unknown, git-branch=unknown
+[2025-03-29 15:20:45,142] [INFO] [comm.py:658:init_distributed] cdb=None
+[2025-03-29 15:20:45,142] [INFO] [comm.py:658:init_distributed] cdb=None
+[2025-03-29 15:20:45,142] [INFO] [comm.py:658:init_distributed] cdb=None
+[2025-03-29 15:20:45,148] [INFO] [config.py:734:__init__] Config mesh_device None world_size = 8
+[2025-03-29 15:20:45,148] [INFO] [config.py:734:__init__] Config mesh_device None world_size = 8
+[2025-03-29 15:20:45,148] [INFO] [config.py:734:__init__] Config mesh_device None world_size = 8
+[2025-03-29 15:20:45,148] [INFO] [config.py:734:__init__] Config mesh_device None world_size = 8
+[2025-03-29 15:20:46,721] [INFO] [logging.py:128:log_dist] [Rank 0] DeepSpeed Flops Profiler Enabled: False
+[2025-03-29 15:20:46,723] [INFO] [logging.py:128:log_dist] [Rank 0] Using client Optimizer as basic optimizer
+[2025-03-29 15:20:46,723] [INFO] [logging.py:128:log_dist] [Rank 0] Removing param_group that has no 'params' in the basic Optimizer
+[2025-03-29 15:20:46,731] [INFO] [logging.py:128:log_dist] [Rank 0] DeepSpeed Basic Optimizer = Adam
+[2025-03-29 15:20:46,731] [INFO] [utils.py:59:is_zero_supported_optimizer] Checking ZeRO support for optimizer=Adam type=<class 'torch.optim.adam.Adam'>
+[2025-03-29 15:20:46,731] [INFO] [logging.py:128:log_dist] [Rank 0] Creating torch.float32 ZeRO stage 2 optimizer
+[2025-03-29 15:20:46,731] [INFO] [stage_1_and_2.py:149:__init__] Reduce bucket size 500000000
+[2025-03-29 15:20:46,732] [INFO] [stage_1_and_2.py:150:__init__] Allgather bucket size 500000000
+[2025-03-29 15:20:46,732] [INFO] [stage_1_and_2.py:151:__init__] CPU Offload: False
+[2025-03-29 15:20:46,732] [INFO] [stage_1_and_2.py:152:__init__] Round robin gradient partitioning: False
+Rank 5: Starting training with mode DeepSpeed
+Rank 4: Starting training with mode DeepSpeed
+Rank 6: Starting training with mode DeepSpeed
+Rank 7: Starting training with mode DeepSpeed
+Rank 3: Starting training with mode DeepSpeed
+Rank 2: Starting training with mode DeepSpeed
+Rank 1: Starting training with mode DeepSpeed
+[2025-03-29 15:20:47,509] [INFO] [utils.py:781:see_memory_usage] Before initializing optimizer states
+[2025-03-29 15:20:47,514] [INFO] [utils.py:782:see_memory_usage] MA 0.1 GB         Max_MA 0.1 GB         CA 0.11 GB         Max_CA 0 GB 
+[2025-03-29 15:20:47,515] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 8.89 GB, percent = 7.1%
+[2025-03-29 15:20:47,708] [INFO] [utils.py:781:see_memory_usage] After initializing optimizer states
+[2025-03-29 15:20:47,710] [INFO] [utils.py:782:see_memory_usage] MA 0.1 GB         Max_MA 0.12 GB         CA 0.12 GB         Max_CA 0 GB 
+[2025-03-29 15:20:47,710] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 9.19 GB, percent = 7.3%
+[2025-03-29 15:20:47,711] [INFO] [stage_1_and_2.py:550:__init__] optimizer state initialized
+[2025-03-29 15:20:47,877] [INFO] [utils.py:781:see_memory_usage] After initializing ZeRO optimizer
+[2025-03-29 15:20:47,878] [INFO] [utils.py:782:see_memory_usage] MA 0.1 GB         Max_MA 0.1 GB         CA 0.12 GB         Max_CA 0 GB 
+[2025-03-29 15:20:47,879] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 9.2 GB, percent = 7.3%
+[2025-03-29 15:20:47,883] [INFO] [logging.py:128:log_dist] [Rank 0] DeepSpeed Final Optimizer = DeepSpeedZeroOptimizer
+[2025-03-29 15:20:47,883] [INFO] [logging.py:128:log_dist] [Rank 0] DeepSpeed using configured LR scheduler = None
+[2025-03-29 15:20:47,883] [INFO] [logging.py:128:log_dist] [Rank 0] DeepSpeed LR Scheduler = None
+[2025-03-29 15:20:47,883] [INFO] [logging.py:128:log_dist] [Rank 0] step=0, skipped=0, lr=[0.001], mom=[(0.9, 0.999)]
+[2025-03-29 15:20:47,884] [INFO] [config.py:1001:print] DeepSpeedEngine configuration:
+[2025-03-29 15:20:47,885] [INFO] [config.py:1005:print]   activation_checkpointing_config  {
+    "partition_activations": false, 
+    "contiguous_memory_optimization": false, 
+    "cpu_checkpointing": false, 
+    "number_checkpoints": null, 
+    "synchronize_checkpoint_boundary": false, 
+    "profile": false
+}
+[2025-03-29 15:20:47,885] [INFO] [config.py:1005:print]   aio_config ................... {'block_size': 1048576, 'queue_depth': 8, 'intra_op_parallelism': 1, 'single_submit': False, 'overlap_events': True, 'use_gds': False}
+[2025-03-29 15:20:47,885] [INFO] [config.py:1005:print]   amp_enabled .................. False
+[2025-03-29 15:20:47,885] [INFO] [config.py:1005:print]   amp_params ................... False
+[2025-03-29 15:20:47,885] [INFO] [config.py:1005:print]   autotuning_config ............ {
+    "enabled": false, 
+    "start_step": null, 
+    "end_step": null, 
+    "metric_path": null, 
+    "arg_mappings": null, 
+    "metric": "throughput", 
+    "model_info": null, 
+    "results_dir": "autotuning_results", 
+    "exps_dir": "autotuning_exps", 
+    "overwrite": true, 
+    "fast": true, 
+    "start_profile_step": 3, 
+    "end_profile_step": 5, 
+    "tuner_type": "gridsearch", 
+    "tuner_early_stopping": 5, 
+    "tuner_num_trials": 50, 
+    "model_info_path": null, 
+    "mp_size": 1, 
+    "max_train_batch_size": null, 
+    "min_train_batch_size": 1, 
+    "max_train_micro_batch_size_per_gpu": 1.024000e+03, 
+    "min_train_micro_batch_size_per_gpu": 1, 
+    "num_tuning_micro_batch_sizes": 3
+}
+[2025-03-29 15:20:47,885] [INFO] [config.py:1005:print]   bfloat16_enabled ............. False
+[2025-03-29 15:20:47,885] [INFO] [config.py:1005:print]   bfloat16_immediate_grad_update  False
+[2025-03-29 15:20:47,886] [INFO] [config.py:1005:print]   checkpoint_parallel_write_pipeline  False
+[2025-03-29 15:20:47,886] [INFO] [config.py:1005:print]   checkpoint_tag_validation_enabled  True
+[2025-03-29 15:20:47,886] [INFO] [config.py:1005:print]   checkpoint_tag_validation_fail  False
+[2025-03-29 15:20:47,886] [INFO] [config.py:1005:print]   comms_config ................. <deepspeed.comm.config.DeepSpeedCommsConfig object at 0x2b60eff88730>
+[2025-03-29 15:20:47,886] [INFO] [config.py:1005:print]   communication_data_type ...... None
+[2025-03-29 15:20:47,886] [INFO] [config.py:1005:print]   compression_config ........... {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': False, 'schedule_offset': 0, 'quantize_groups': 1, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': False, 'quantize_change_ratio': 0.001}, 'different_groups': {}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 1000}, 'different_groups': {}}, 'sparse_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'row_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'head_pruning': {'shared_parameters': {'enabled': False, 'method': 'topk', 'schedule_offset': 1000}, 'different_groups': {}}, 'channel_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'layer_reduction': {'enabled': False}}
+[2025-03-29 15:20:47,886] [INFO] [config.py:1005:print]   curriculum_enabled_legacy .... False
+[2025-03-29 15:20:47,886] [INFO] [config.py:1005:print]   curriculum_params_legacy ..... False
+[2025-03-29 15:20:47,886] [INFO] [config.py:1005:print]   data_efficiency_config ....... {'enabled': False, 'seed': 1234, 'data_sampling': {'enabled': False, 'num_epochs': 1000, 'num_workers': 0, 'curriculum_learning': {'enabled': False}}, 'data_routing': {'enabled': False, 'random_ltd': {'enabled': False, 'layer_token_lr_schedule': {'enabled': False}}}}
+[2025-03-29 15:20:47,886] [INFO] [config.py:1005:print]   data_efficiency_enabled ...... False
+[2025-03-29 15:20:47,887] [INFO] [config.py:1005:print]   dataloader_drop_last ......... False
+[2025-03-29 15:20:47,887] [INFO] [config.py:1005:print]   disable_allgather ............ False
+[2025-03-29 15:20:47,887] [INFO] [config.py:1005:print]   dump_state ................... False
+[2025-03-29 15:20:47,887] [INFO] [config.py:1005:print]   dynamic_loss_scale_args ...... None
+[2025-03-29 15:20:47,887] [INFO] [config.py:1005:print]   eigenvalue_enabled ........... False
+[2025-03-29 15:20:47,887] [INFO] [config.py:1005:print]   eigenvalue_gas_boundary_resolution  1
+[2025-03-29 15:20:47,887] [INFO] [config.py:1005:print]   eigenvalue_layer_name ........ bert.encoder.layer
+[2025-03-29 15:20:47,887] [INFO] [config.py:1005:print]   eigenvalue_layer_num ......... 0
+[2025-03-29 15:20:47,887] [INFO] [config.py:1005:print]   eigenvalue_max_iter .......... 100
+[2025-03-29 15:20:47,888] [INFO] [config.py:1005:print]   eigenvalue_stability ......... 1e-06
+[2025-03-29 15:20:47,888] [INFO] [config.py:1005:print]   eigenvalue_tol ............... 0.01
+[2025-03-29 15:20:47,888] [INFO] [config.py:1005:print]   eigenvalue_verbose ........... False
+[2025-03-29 15:20:47,888] [INFO] [config.py:1005:print]   elasticity_enabled ........... False
+[2025-03-29 15:20:47,888] [INFO] [config.py:1005:print]   flops_profiler_config ........ {
+    "enabled": false, 
+    "recompute_fwd_factor": 0.0, 
+    "profile_step": 1, 
+    "module_depth": -1, 
+    "top_modules": 1, 
+    "detailed": true, 
+    "output_file": null
+}
+[2025-03-29 15:20:47,888] [INFO] [config.py:1005:print]   fp16_auto_cast ............... None
+[2025-03-29 15:20:47,888] [INFO] [config.py:1005:print]   fp16_enabled ................. False
+[2025-03-29 15:20:47,888] [INFO] [config.py:1005:print]   fp16_master_weights_and_gradients  False
+[2025-03-29 15:20:47,888] [INFO] [config.py:1005:print]   global_rank .................. 0
+[2025-03-29 15:20:47,888] [INFO] [config.py:1005:print]   grad_accum_dtype ............. None
+[2025-03-29 15:20:47,888] [INFO] [config.py:1005:print]   gradient_accumulation_steps .. 1
+[2025-03-29 15:20:47,889] [INFO] [config.py:1005:print]   gradient_clipping ............ 0.0
+[2025-03-29 15:20:47,889] [INFO] [config.py:1005:print]   gradient_predivide_factor .... 1.0
+[2025-03-29 15:20:47,889] [INFO] [config.py:1005:print]   graph_harvesting ............. False
+[2025-03-29 15:20:47,889] [INFO] [config.py:1005:print]   hybrid_engine ................ enabled=False max_out_tokens=512 inference_tp_size=1 release_inference_cache=False pin_parameters=True tp_gather_partition_size=8
+[2025-03-29 15:20:47,889] [INFO] [config.py:1005:print]   initial_dynamic_scale ........ 65536
+[2025-03-29 15:20:47,889] [INFO] [config.py:1005:print]   load_universal_checkpoint .... False
+[2025-03-29 15:20:47,889] [INFO] [config.py:1005:print]   loss_scale ................... 0
+[2025-03-29 15:20:47,889] [INFO] [config.py:1005:print]   memory_breakdown ............. False
+[2025-03-29 15:20:47,889] [INFO] [config.py:1005:print]   mics_hierarchial_params_gather  False
+[2025-03-29 15:20:47,889] [INFO] [config.py:1005:print]   mics_shard_size .............. -1
+[2025-03-29 15:20:47,890] [INFO] [config.py:1005:print]   monitor_config ............... tensorboard=TensorBoardConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') comet=CometConfig(enabled=False, samples_log_interval=100, project=None, workspace=None, api_key=None, experiment_name=None, experiment_key=None, online=None, mode=None) wandb=WandbConfig(enabled=False, group=None, team=None, project='deepspeed') csv_monitor=CSVConfig(enabled=False, output_path='', job_name='DeepSpeedJobName')
+[2025-03-29 15:20:47,890] [INFO] [config.py:1005:print]   nebula_config ................ {
+    "enabled": false, 
+    "persistent_storage_path": null, 
+    "persistent_time_interval": 100, 
+    "num_of_version_in_retention": 2, 
+    "enable_nebula_load": true, 
+    "load_path": null
+}
+[2025-03-29 15:20:47,890] [INFO] [config.py:1005:print]   optimizer_legacy_fusion ...... False
+[2025-03-29 15:20:47,890] [INFO] [config.py:1005:print]   optimizer_name ............... None
+[2025-03-29 15:20:47,890] [INFO] [config.py:1005:print]   optimizer_params ............. None
+[2025-03-29 15:20:47,890] [INFO] [config.py:1005:print]   pipeline ..................... {'stages': 'auto', 'partition': 'best', 'seed_layers': False, 'activation_checkpoint_interval': 0, 'pipe_partitioned': True, 'grad_partitioned': True}
+[2025-03-29 15:20:47,890] [INFO] [config.py:1005:print]   pld_enabled .................. False
+[2025-03-29 15:20:47,890] [INFO] [config.py:1005:print]   pld_params ................... False
+[2025-03-29 15:20:47,890] [INFO] [config.py:1005:print]   prescale_gradients ........... False
+[2025-03-29 15:20:47,890] [INFO] [config.py:1005:print]   scheduler_name ............... None
+[2025-03-29 15:20:47,890] [INFO] [config.py:1005:print]   scheduler_params ............. None
+[2025-03-29 15:20:47,891] [INFO] [config.py:1005:print]   seq_parallel_communication_data_type  torch.float32
+[2025-03-29 15:20:47,891] [INFO] [config.py:1005:print]   sparse_attention ............. None
+[2025-03-29 15:20:47,891] [INFO] [config.py:1005:print]   sparse_gradients_enabled ..... False
+[2025-03-29 15:20:47,891] [INFO] [config.py:1005:print]   steps_per_print .............. None
+[2025-03-29 15:20:47,891] [INFO] [config.py:1005:print]   tensor_parallel_config ....... dtype=torch.float16 autotp_size=0 tensor_parallel=TPConfig(tp_size=1, tp_grain_size=1, mpu=None, tp_group=None) injection_policy_tuple=None keep_module_on_host=False replace_with_kernel_inject=False
+[2025-03-29 15:20:47,891] [INFO] [config.py:1005:print]   timers_config ................ enabled=True synchronized=True
+[2025-03-29 15:20:47,891] [INFO] [config.py:1005:print]   train_batch_size ............. 2048
+[2025-03-29 15:20:47,891] [INFO] [config.py:1005:print]   train_micro_batch_size_per_gpu  256
+[2025-03-29 15:20:47,892] [INFO] [config.py:1005:print]   use_data_before_expert_parallel_  False
+[2025-03-29 15:20:47,892] [INFO] [config.py:1005:print]   use_node_local_storage ....... False
+[2025-03-29 15:20:47,892] [INFO] [config.py:1005:print]   wall_clock_breakdown ......... False
+[2025-03-29 15:20:47,892] [INFO] [config.py:1005:print]   weight_quantization_config ... None
+[2025-03-29 15:20:47,892] [INFO] [config.py:1005:print]   world_size ................... 8
+[2025-03-29 15:20:47,892] [INFO] [config.py:1005:print]   zero_allow_untested_optimizer  False
+[2025-03-29 15:20:47,892] [INFO] [config.py:1005:print]   zero_config .................. stage=2 contiguous_gradients=True reduce_scatter=True reduce_bucket_size=500000000 use_multi_rank_bucket_allreduce=True allgather_partitions=True allgather_bucket_size=500000000 overlap_comm=False load_from_fp32_weights=True elastic_checkpoint=False offload_param=None offload_optimizer=None sub_group_size=1000000000 cpu_offload_param=None cpu_offload_use_pin_memory=None cpu_offload=None prefetch_bucket_size=50000000 param_persistence_threshold=100000 model_persistence_threshold=9223372036854775807 max_live_parameters=1000000000 max_reuse_distance=1000000000 gather_16bit_weights_on_model_save=False module_granularity_threshold=0 use_all_reduce_for_fetch_params=False stage3_gather_fp16_weights_on_model_save=False ignore_unused_parameters=True legacy_stage1=False round_robin_gradients=False zero_hpz_partition_size=1 zero_quantized_weights=False zero_quantized_nontrainable_weights=False zero_quantized_gradients=False zeropp_loco_param=None mics_shard_size=-1 mics_hierarchical_params_gather=False memory_efficient_linear=True pipeline_loading_checkpoint=False override_module_apply=True log_trace_cache_warnings=False
+[2025-03-29 15:20:47,892] [INFO] [config.py:1005:print]   zero_enabled ................. True
+[2025-03-29 15:20:47,892] [INFO] [config.py:1005:print]   zero_force_ds_cpu_optimizer .. True
+[2025-03-29 15:20:47,892] [INFO] [config.py:1005:print]   zero_optimization_stage ...... 2
+[2025-03-29 15:20:47,892] [INFO] [config.py:991:print_user_config]   json = {
+    "train_micro_batch_size_per_gpu": 256, 
+    "zero_optimization": {
+        "stage": 2
+    }
+}
+Rank 0: Starting training with mode DeepSpeed
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "/home1/10504/lfw24/distributed_training/main.py", line 70, in <module>
+[rank4]:     train_model(model, trainloader, optimizer, criterion, parallel_mode=parallel_mode, rank=rank, local_rank=local_rank)
+[rank4]:   File "/home1/10504/lfw24/distributed_training/train.py", line 71, in train_model
+[rank4]:     outputs = model(inputs)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank4]:     return self._call_impl(*args, **kwargs)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank4]:     return forward_call(*args, **kwargs)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank4]:     ret_val = func(*args, **kwargs)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 1987, in forward
+[rank4]:     loss = self.module(*inputs, **kwargs)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank4]:     return self._call_impl(*args, **kwargs)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank4]:     return forward_call(*args, **kwargs)
+[rank4]:   File "/home1/10504/lfw24/distributed_training/model.py", line 21, in forward
+[rank4]:     x = self.model(x)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank4]:     return self._call_impl(*args, **kwargs)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/home1/10504/lfw24/distributed_training/main.py", line 70, in <module>
+[rank2]:     train_model(model, trainloader, optimizer, criterion, parallel_mode=parallel_mode, rank=rank, local_rank=local_rank)
+[rank2]:   File "/home1/10504/lfw24/distributed_training/train.py", line 71, in train_model
+[rank2]:     outputs = model(inputs)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank2]:     ret_val = func(*args, **kwargs)
+[rank4]:     return forward_call(*args, **kwargs)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 285, in forward
+[rank4]:     return self._forward_impl(x)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 274, in _forward_impl
+[rank4]:     x = self.layer2(x)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank4]:     return self._call_impl(*args, **kwargs)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank4]:     return forward_call(*args, **kwargs)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/container.py", line 250, in forward
+[rank4]:     input = module(input)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 1987, in forward
+[rank2]:     loss = self.module(*inputs, **kwargs)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:   File "/home1/10504/lfw24/distributed_training/model.py", line 21, in forward
+[rank2]:     x = self.model(x)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank4]:     return self._call_impl(*args, **kwargs)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank4]:     return forward_call(*args, **kwargs)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 154, in forward
+[rank4]:     out = self.conv3(out)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank4]:     return self._call_impl(*args, **kwargs)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank4]:     return forward_call(*args, **kwargs)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 554, in forward
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 285, in forward
+[rank2]:     return self._forward_impl(x)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 274, in _forward_impl
+[rank2]:     x = self.layer2(x)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/container.py", line 250, in forward
+[rank2]:     input = module(input)
+[rank4]:     return self._conv_forward(input, self.weight, self.bias)
+[rank4]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+[rank4]:     return F.conv2d(
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 154, in forward
+[rank2]:     out = self.conv3(out)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 554, in forward
+[rank4]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 392.00 MiB. GPU 0 has a total capacity of 15.74 GiB of which 272.38 MiB is free. Including non-PyTorch memory, this process has 15.47 GiB memory in use. Of the allocated memory 14.80 GiB is allocated by PyTorch, and 461.73 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank2]:     return self._conv_forward(input, self.weight, self.bias)
+[rank2]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+[rank2]:     return F.conv2d(
+[rank5]: Traceback (most recent call last):
+[rank5]:   File "/home1/10504/lfw24/distributed_training/main.py", line 70, in <module>
+[rank5]:     train_model(model, trainloader, optimizer, criterion, parallel_mode=parallel_mode, rank=rank, local_rank=local_rank)
+[rank5]:   File "/home1/10504/lfw24/distributed_training/train.py", line 71, in train_model
+[rank5]:     outputs = model(inputs)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank5]:     return self._call_impl(*args, **kwargs)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank5]:     return forward_call(*args, **kwargs)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank5]:     ret_val = func(*args, **kwargs)
+[rank2]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 392.00 MiB. GPU 2 has a total capacity of 15.74 GiB of which 272.38 MiB is free. Including non-PyTorch memory, this process has 15.47 GiB memory in use. Of the allocated memory 14.80 GiB is allocated by PyTorch, and 461.73 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 1987, in forward
+[rank5]:     loss = self.module(*inputs, **kwargs)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank5]:     return self._call_impl(*args, **kwargs)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank5]:     return forward_call(*args, **kwargs)
+[rank5]:   File "/home1/10504/lfw24/distributed_training/model.py", line 21, in forward
+[rank5]:     x = self.model(x)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank5]:     return self._call_impl(*args, **kwargs)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/home1/10504/lfw24/distributed_training/main.py", line 70, in <module>
+[rank3]:     train_model(model, trainloader, optimizer, criterion, parallel_mode=parallel_mode, rank=rank, local_rank=local_rank)
+[rank3]:   File "/home1/10504/lfw24/distributed_training/train.py", line 71, in train_model
+[rank3]:     outputs = model(inputs)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank3]:     ret_val = func(*args, **kwargs)
+[rank5]:     return forward_call(*args, **kwargs)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 285, in forward
+[rank5]:     return self._forward_impl(x)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 274, in _forward_impl
+[rank5]:     x = self.layer2(x)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank5]:     return self._call_impl(*args, **kwargs)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank5]:     return forward_call(*args, **kwargs)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/container.py", line 250, in forward
+[rank5]:     input = module(input)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 1987, in forward
+[rank3]:     loss = self.module(*inputs, **kwargs)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/home1/10504/lfw24/distributed_training/model.py", line 21, in forward
+[rank3]:     x = self.model(x)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank5]:     return self._call_impl(*args, **kwargs)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank5]:     return forward_call(*args, **kwargs)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 154, in forward
+[rank5]:     out = self.conv3(out)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank5]:     return self._call_impl(*args, **kwargs)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank5]:     return forward_call(*args, **kwargs)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 554, in forward
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 285, in forward
+[rank3]:     return self._forward_impl(x)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 274, in _forward_impl
+[rank3]:     x = self.layer2(x)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/container.py", line 250, in forward
+[rank3]:     input = module(input)
+[rank5]:     return self._conv_forward(input, self.weight, self.bias)
+[rank5]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+[rank5]:     return F.conv2d(
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 154, in forward
+[rank3]:     out = self.conv3(out)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 554, in forward
+[rank6]: Traceback (most recent call last):
+[rank6]:   File "/home1/10504/lfw24/distributed_training/main.py", line 70, in <module>
+[rank6]:     train_model(model, trainloader, optimizer, criterion, parallel_mode=parallel_mode, rank=rank, local_rank=local_rank)
+[rank6]:   File "/home1/10504/lfw24/distributed_training/train.py", line 71, in train_model
+[rank6]:     outputs = model(inputs)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank6]:     return self._call_impl(*args, **kwargs)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank6]:     return forward_call(*args, **kwargs)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank6]:     ret_val = func(*args, **kwargs)
+[rank3]:     return self._conv_forward(input, self.weight, self.bias)
+[rank3]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+[rank3]:     return F.conv2d(
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 1987, in forward
+[rank6]:     loss = self.module(*inputs, **kwargs)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank6]:     return self._call_impl(*args, **kwargs)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank6]:     return forward_call(*args, **kwargs)
+[rank6]:   File "/home1/10504/lfw24/distributed_training/model.py", line 21, in forward
+[rank6]:     x = self.model(x)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank6]:     return self._call_impl(*args, **kwargs)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank3]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 392.00 MiB. GPU 3 has a total capacity of 15.74 GiB of which 272.38 MiB is free. Including non-PyTorch memory, this process has 15.47 GiB memory in use. Of the allocated memory 14.80 GiB is allocated by PyTorch, and 461.73 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank6]:     return forward_call(*args, **kwargs)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 285, in forward
+[rank6]:     return self._forward_impl(x)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 274, in _forward_impl
+[rank6]:     x = self.layer2(x)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank6]:     return self._call_impl(*args, **kwargs)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank6]:     return forward_call(*args, **kwargs)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/container.py", line 250, in forward
+[rank6]:     input = module(input)
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home1/10504/lfw24/distributed_training/main.py", line 70, in <module>
+[rank0]:     train_model(model, trainloader, optimizer, criterion, parallel_mode=parallel_mode, rank=rank, local_rank=local_rank)
+[rank0]:   File "/home1/10504/lfw24/distributed_training/train.py", line 71, in train_model
+[rank0]:     outputs = model(inputs)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank0]:     ret_val = func(*args, **kwargs)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank6]:     return self._call_impl(*args, **kwargs)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank6]:     return forward_call(*args, **kwargs)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 154, in forward
+[rank6]:     out = self.conv3(out)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank6]:     return self._call_impl(*args, **kwargs)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank6]:     return forward_call(*args, **kwargs)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 554, in forward
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 1987, in forward
+[rank0]:     loss = self.module(*inputs, **kwargs)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home1/10504/lfw24/distributed_training/model.py", line 21, in forward
+[rank0]:     x = self.model(x)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank6]:     return self._conv_forward(input, self.weight, self.bias)
+[rank6]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+[rank6]:     return F.conv2d(
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 285, in forward
+[rank0]:     return self._forward_impl(x)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 274, in _forward_impl
+[rank0]:     x = self.layer2(x)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/container.py", line 250, in forward
+[rank0]:     input = module(input)
+[rank5]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 392.00 MiB. GPU 1 has a total capacity of 15.74 GiB of which 272.38 MiB is free. Including non-PyTorch memory, this process has 15.47 GiB memory in use. Of the allocated memory 14.80 GiB is allocated by PyTorch, and 461.73 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 154, in forward
+[rank0]:     out = self.conv3(out)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 554, in forward
+[rank6]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 392.00 MiB. GPU 2 has a total capacity of 15.74 GiB of which 272.38 MiB is free. Including non-PyTorch memory, this process has 15.47 GiB memory in use. Of the allocated memory 14.80 GiB is allocated by PyTorch, and 461.73 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank0]:     return self._conv_forward(input, self.weight, self.bias)
+[rank0]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+[rank0]:     return F.conv2d(
+[rank7]: Traceback (most recent call last):
+[rank7]:   File "/home1/10504/lfw24/distributed_training/main.py", line 70, in <module>
+[rank7]:     train_model(model, trainloader, optimizer, criterion, parallel_mode=parallel_mode, rank=rank, local_rank=local_rank)
+[rank7]:   File "/home1/10504/lfw24/distributed_training/train.py", line 71, in train_model
+[rank7]:     outputs = model(inputs)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank7]:     return self._call_impl(*args, **kwargs)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank7]:     return forward_call(*args, **kwargs)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank7]:     ret_val = func(*args, **kwargs)
+[rank0]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 392.00 MiB. GPU 0 has a total capacity of 15.74 GiB of which 272.38 MiB is free. Including non-PyTorch memory, this process has 15.47 GiB memory in use. Of the allocated memory 14.80 GiB is allocated by PyTorch, and 461.73 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 1987, in forward
+[rank7]:     loss = self.module(*inputs, **kwargs)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank7]:     return self._call_impl(*args, **kwargs)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank7]:     return forward_call(*args, **kwargs)
+[rank7]:   File "/home1/10504/lfw24/distributed_training/model.py", line 21, in forward
+[rank7]:     x = self.model(x)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank7]:     return self._call_impl(*args, **kwargs)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank7]:     return forward_call(*args, **kwargs)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 285, in forward
+[rank7]:     return self._forward_impl(x)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 274, in _forward_impl
+[rank7]:     x = self.layer2(x)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank7]:     return self._call_impl(*args, **kwargs)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank7]:     return forward_call(*args, **kwargs)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/container.py", line 250, in forward
+[rank7]:     input = module(input)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank7]:     return self._call_impl(*args, **kwargs)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank7]:     return forward_call(*args, **kwargs)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 154, in forward
+[rank7]:     out = self.conv3(out)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank7]:     return self._call_impl(*args, **kwargs)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank7]:     return forward_call(*args, **kwargs)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 554, in forward
+[rank7]:     return self._conv_forward(input, self.weight, self.bias)
+[rank7]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+[rank7]:     return F.conv2d(
+[rank7]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 392.00 MiB. GPU 3 has a total capacity of 15.74 GiB of which 272.38 MiB is free. Including non-PyTorch memory, this process has 15.47 GiB memory in use. Of the allocated memory 14.80 GiB is allocated by PyTorch, and 461.73 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/home1/10504/lfw24/distributed_training/main.py", line 70, in <module>
+[rank1]:     train_model(model, trainloader, optimizer, criterion, parallel_mode=parallel_mode, rank=rank, local_rank=local_rank)
+[rank1]:   File "/home1/10504/lfw24/distributed_training/train.py", line 71, in train_model
+[rank1]:     outputs = model(inputs)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank1]:     ret_val = func(*args, **kwargs)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 1987, in forward
+[rank1]:     loss = self.module(*inputs, **kwargs)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/home1/10504/lfw24/distributed_training/model.py", line 21, in forward
+[rank1]:     x = self.model(x)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 285, in forward
+[rank1]:     return self._forward_impl(x)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 274, in _forward_impl
+[rank1]:     x = self.layer2(x)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/container.py", line 250, in forward
+[rank1]:     input = module(input)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torchvision/models/resnet.py", line 154, in forward
+[rank1]:     out = self.conv3(out)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 554, in forward
+[rank1]:     return self._conv_forward(input, self.weight, self.bias)
+[rank1]:   File "/home1/10504/lfw24/pytorchenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+[rank1]:     return F.conv2d(
+[rank1]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 392.00 MiB. GPU 1 has a total capacity of 15.74 GiB of which 272.38 MiB is free. Including non-PyTorch memory, this process has 15.47 GiB memory in use. Of the allocated memory 14.80 GiB is allocated by PyTorch, and 461.73 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+srun: Job step aborted: Waiting up to 62 seconds for job step to finish.
+slurmstepd: error: *** STEP 7015434.4 ON c196-111 CANCELLED AT 2025-03-29T21:22:49 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination
+srun: error: c197-082: task 5: Terminated
+srun: error: c196-111: task 0: Terminated
+srun: error: c197-082: task 7: Terminated
+srun: error: c196-111: task 1: Terminated
+srun: error: c197-082: task 4: Terminated
+srun: error: c196-111: task 2: Terminated
+srun: error: c197-082: task 6: Terminated
+srun: error: c196-111: task 3: Terminated

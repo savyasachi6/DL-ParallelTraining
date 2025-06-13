@@ -1,0 +1,29 @@
+Created plots folder
+------------------------------------------
+Running mode: DP
+------------------------------------------
+Mode DP completed successfully.
+Check DP_output.log for training details and 'plots' for plots.
+------------------------------------------
+Running mode: DDP
+------------------------------------------
+Mode DDP completed successfully.
+Check DDP_output.log for training details and 'plots' for plots.
+------------------------------------------
+Running mode: FSDP
+------------------------------------------
+Mode FSDP completed successfully.
+Check FSDP_output.log for training details and 'plots' for plots.
+------------------------------------------
+Running mode: FairScaleFSDP
+------------------------------------------
+Mode FairScaleFSDP completed successfully.
+Check FairScaleFSDP_output.log for training details and 'plots' for plots.
+------------------------------------------
+Running mode: DeepSpeed
+------------------------------------------
+Mode DeepSpeed completed successfully.
+Check DeepSpeed_output.log for training details and 'plots' for plots.
+------------------------------------------
+All modes have been executed.
+Plots are saved in the 'plots' folder.
